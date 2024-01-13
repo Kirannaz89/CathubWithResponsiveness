@@ -1,0 +1,218 @@
+
+
+body {
+    background-color:lightgrey;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  flex: 50%;
+  padding: 0px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+.row {
+	display: flex;
+	margin-top: 20px;
+ }
+ .img {
+  text-align:center;
+ }
+
+p {
+text-align: center;
+}
+
+h6 {
+	text-align: center;
+    margin-top: 90px;
+}
+
+.vectors {
+	margin-top: 100px;
+}
+
+.p {
+	text-align: center;
+margin-top: 2px;
+}
+.font {
+	text-align: center;
+	color:skyblue;
+
+}
+@media screen and (max-width: 320px) {
+.row {
+  display: block;
+}
+.column {
+  width: 100%;
+  padding: 0px;
+ 
+}
+
+.img {
+
+  text-align: center;
+}
+.img img{
+
+  width: 235px ;
+}
+.p {
+	font-size: 10px;
+        margin-right: 20%;
+        margin-top:20px; 
+}
+
+h6 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right:10% ;
+   
+}
+
+.vectors {
+	   margin-top: 10px;
+            width:20%;
+            margin-left:20%;
+}
+.font {
+  text-align: center;
+  color:skyblue;
+}
+
+}
+
+
+
+@media screen and (max-width: 576px) {
+.row {
+  display: block;
+}
+.column {
+  width: 100%;
+  padding: 0px;
+ 
+}
+
+.img {
+
+  text-align: center;
+}
+.img img{
+
+  width: 235px ;
+}
+.p {
+	font-size: 10px;
+        margin-right: 20%;
+        margin-top:20px; 
+}
+
+h6 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right:10% ;
+   
+}
+
+.vectors {
+	   margin-top: 10px;
+            width:20%;
+            margin-left:20%;
+}
+.font {
+  text-align: center;
+  color:skyblue;
+}
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+.row {
+  display: block;
+}
+.column {
+  width: 100%;
+  padding: 0px;
+ 
+}
+
+.img {
+
+  text-align: center;
+}
+.p {
+  font-size: 10px;
+        margin-right: 20%;
+        margin-top:20px; 
+}
+
+h6 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right:10% ;
+   
+}
+
+.vectors {
+     margin-top: 10px;
+            width:20%;
+            margin-left:20%;
+}
+.font {
+  text-align: center;
+  color:skyblue;
+}
+
+}
+
+
+@media screen and (max-width: 992px) {
+.row {
+  display: block;
+}
+.column {
+  width: 100%;
+  padding: 0px;
+ 
+}
+
+.img {
+
+  text-align: center;
+}
+.p {
+  font-size: 10px;
+        margin-right: 20%;
+        margin-top:20px; 
+}
+
+h6 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right:10% ;
+   
+}
+
+.vectors {
+     margin-top: 10px;
+            width:20%;
+            margin-left:20%;
+}
+.font {
+  text-align: center;
+  color:skyblue;
+}
+
+}
